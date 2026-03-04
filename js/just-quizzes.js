@@ -535,7 +535,7 @@ window.quizzes = [
     },
             {
         id: "medium-player-quiz-2",
-        title: "Tom Brady Quiz",
+        title: "The Tom Brady Quiz",
         category: "players",
         difficulty: "medium",
         questions: [
@@ -1002,4 +1002,5 @@ window.quizzes = [
     },
 //#endregion
 ];
+
 
