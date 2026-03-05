@@ -591,6 +591,66 @@ window.quizzes = [
             }
         ]
     },
+    
+                 {
+        id: "medium-player-quiz-3",
+        title: "The Aaron Rodgers Quiz",
+        category: "players",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Where did Aaron Rodgers go to college?",
+                answers: ["California (Cal)", "USC", "Ohio State", "Michigan State"],
+                correct: 0
+            },
+            {
+                question: "How many Super Bowl rings did Aaron Rodgers win?",
+                answers: ["0", "1", "2", "4"],
+                correct: 1
+            },
+            {
+                question: "How many MVP awards has Aaron Rodgers won",
+                answers: ["1", "2", "3", "4"],
+                correct: 3
+            },
+            {
+                question: "Which team drafted Aaron Rodgers?",
+                answers: ["NY Jets", "Green Bay Packers", "Philadelphia Eagles", "LA Rams"],
+                correct: 1
+            },
+            {
+                question: "Which team did Aaron Rodgers join after leaving the Green Bay Packers?",
+                answers: ["NY Jets", "Kansas City Chiefs", "Pittsburgh Steelers", "LA Rams"],
+                correct: 0
+            },
+            {
+                question: "Which receiver caught the most receiving yards from Aaron Rodgers?",
+                answers: ["Randall Cobb", "Marcedes Lewis", "Davante Adams", "Jordy Nelson"],
+                correct: 2
+            },
+            {
+                question: "Which receiver caught the most touchdown passes from Aaron Rodgers?",
+                answers: ["Jordy Nelson", "Allen Lazard", "James Jones", "Davante Adams"],
+                correct: 3
+            },
+            {
+                question: "Which team did Aaron Rodgers defeat to win Super Bowl XLV?",
+                answers: ["Kansas City Chiefs", "Pittsburgh Steelers", "Carolina Panthers", "Denver Broncos"],
+                correct: 1
+            },
+            {
+                question: "Before becoming the Packers' starting quarterback, Aaron Rodgers spent several seasons as the backup to which quarterback?",
+                answers: ["Matt Hasselbeck", "Don Majkowski", "Tom Brady", "Brett Favre"],
+                correct: 3
+            },
+            {
+                question: "Which number did Aaron Rodgers wear while playing for the Green Bay Packers?",
+                answers: ["8", "10", "12", "15"],
+                correct: 2
+            }
+        ]
+    },
+    
         {
         id: "medium-teams-quiz",
         title: "Guess the stadium of following NFL teams",
@@ -1002,5 +1062,6 @@ window.quizzes = [
     },
 //#endregion
 ];
+
 
 
