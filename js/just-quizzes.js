@@ -535,7 +535,7 @@ window.quizzes = [
     },
             {
         id: "medium-player-quiz-2",
-        title: "The Tom Brady Quiz",
+        title: "The Tom Brady Quiz - How well do you know this NFL legend",
         category: "players",
         difficulty: "medium",
         questions: [
@@ -594,7 +594,7 @@ window.quizzes = [
     
                  {
         id: "medium-player-quiz-3",
-        title: "The Aaron Rodgers Quiz",
+        title: "The Aaron Rodgers Quiz - How well do you know this NFL legend?",
         category: "players",
         difficulty: "medium",
         questions: [
@@ -1062,6 +1062,7 @@ window.quizzes = [
     },
 //#endregion
 ];
+
 
 
 
