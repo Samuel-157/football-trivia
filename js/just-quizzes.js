@@ -650,6 +650,65 @@ window.quizzes = [
             }
         ]
     },
+
+                {
+        id: "medium-player-quiz-4",
+        title: "The Patrick Mahomes Quiz – How well do you know this NFL superstar?",
+        category: "players",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Which number does Patrick Mahomes wear for the Kansas City Chiefs?",
+                answers: ["5", "12", "15", "18", ],
+                correct: 2
+            },
+            {
+                question: "How many MVP awards has Patrick Mahomes won?",
+                answers: ["1", "2", "3", "5"],
+                correct: 1
+            },
+            {
+                question: "How many Super Bowl MVP awards has Patrick Mahomes won?",
+                answers: ["1", "2", "3", "4"],
+                correct: 2
+            },
+            {
+                question: "Where did Patrick Mahomes go to college?",
+                answers: ["Texas", "Texas A&M", "Georgia", "Texas Tech"],
+                correct: 3
+            },
+            {
+                question: "Where is Patrick Mahomes from?",
+                answers: ["Tyler (TX)", "Lubbock (TX)", "Los Angeles (CA)", "New Orleans (LA)"],
+                correct: 0
+            },
+            {
+                question: "Which receiver caught the most receiving yards from Patrick Mahomes?",
+                answers: ["Tyreek Hill", "Travis Kelce", "Sammy Watkins", "Rashee Rice"],
+                correct: 1
+            },
+            {
+                question: "Which defender has intercepted Patrick Mahomes the most?",
+                answers: ["Derwin James Jr.", "Jalen Ramsey", "Buddah Baker", "Justin Simmons"],
+                correct: 3
+            },
+            {
+                question: "Which team did Patrick Mahomes lose to in his first Super Bowl loss?",
+                answers: ["Tampa Bay Buccaneers", "LA Rams", "Philadelphia Eagles", "Green Bay Packers"],
+                correct: 0
+            },
+            {
+                question: "Which team did Patrick Mahomes defeat in his first Super Bowl victory?",
+                answers: ["Seattle Seahawks", "Tampa Bay Buccaneers", "San Francisco 49ers", "LA Rams"],
+                correct: 2
+            },
+            {
+                question: "How many times has Patrick Mahomes played in the Super Bowl?",
+                answers: ["3", "4", "5", "7"],
+                correct: 2
+            }
+        ]
+    },
     
         {
         id: "medium-teams-quiz",
@@ -1062,6 +1121,7 @@ window.quizzes = [
     },
 //#endregion
 ];
+
 
 
 
