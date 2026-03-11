@@ -945,6 +945,66 @@ window.quizzes = [
             }
         ]
     },
+
+            {
+        id: "hard-player-quiz-3",
+        title: "Guess the NFL player by jersey number 2",
+        category: "players",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Which number does Jonathan Allen wear?",
+                answers: ["0", "50", "93", "99"],
+                correct: 2
+            },
+            {
+                question: "Which number did T.Y. Hilton wear?",
+                answers: ["3", "13", "18", "88"],
+                correct: 1
+            },
+            {
+                question: "Which number does Colston Loveland wear?",
+                answers: ["9", "80", "84", "89"],
+                correct: 2
+            },
+            {
+                question: "Which number did Ryan Jensen wear?",
+                answers: ["66", "69", "74", "75"],
+                correct: 0
+            },
+            {
+                question: "Which number did Tyrann Mathieu wear?",
+                answers: ["1", "3", "21", "32"],
+                correct: 3
+            },
+            {
+                question: "Which number does Tyler Allgeier wear?",
+                answers: ["8", "25", "28", "32"],
+                correct: 1
+            },
+            {
+                question: "Which number did Pat McAfee wear?",
+                answers: ["1", "5", "15", "21"],
+                correct: 0
+            },
+            {
+                question: "Which number does Harrison Butker wear?",
+                answers: ["4", "7", "17", "19"],
+                correct: 1
+            },
+            {
+                question: "Which number does Tua Tagovailoa wear?",
+                answers: ["0", "1", "4", "8"],
+                correct: 1
+            },
+            {
+                question: "Which number did Colin Kaepernick wear?",
+                answers: ["1", "5", "7", "15"],
+                correct: 2
+            }
+        ]
+    },
+    
     {
         id: "hard-draft-quiz",
         title: "Guess where following NFL players went to college",
@@ -1181,6 +1241,7 @@ window.quizzes = [
     },
 //#endregion
 ];
+
 
 
 
