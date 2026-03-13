@@ -709,6 +709,65 @@ window.quizzes = [
             }
         ]
     },
+
+        {
+        id: "medium-player-quiz-5",
+        title: "2026 NFL Free Agency Quiz",
+        category: "players",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Which team signed Jonathan Allen during the 2026 NFL free agency?",
+                answers: ["Minnesota Vikings", "Washington Commanders", "Cleveland Browns", "Cincinnati Bengals"],
+                correct: 3
+            },
+            {
+                question: "Which team signed Bradley Chubb during the 2026 free agency?",
+                answers: ["Denver Broncos", "Buffalo Bills", "Kansas City Chiefs", "Las Vegas Raiders"],
+                correct: 1
+            },
+            {
+                question: "Which team signed Rico Dowdle during the 2026 free agency?",
+                answers: ["Carolina Panthers", "Pittsburgh Steelers", "Cleveland Browns", "LA Rams"],
+                correct: 1
+            },
+            {
+                question: "Which team signed Tua Tagovailoa during the 2026 free agency?",
+                answers: ["Las Vegas Raiders", "Pittsburgh Steelers", "Atlanta Falcons", "Minnesota Vikings"],
+                correct: 2
+            },
+            {
+                question: "Which team signed Mike Evans during the 2026 free agency?",
+                answers: ["Tampa Bay Buccaneers", "Cleveland Browns", "LA Chargers", "San Francisco 49ers"],
+                correct: 3
+            },
+            {
+                question: "Which team signed Michael Pittman Jr. during the 2026 free agency?",
+                answers: ["Pittsburgh Steelers", "Las Vegas Raiders", "Indianapolis Colts", "San Francisco 49ers"],
+                correct: 0
+            },
+            {
+                question: "Which team signed Tyler Linderbaum during the 2026 free agency?",
+                answers: ["Las Vegas Raiders", "Pittsburgh Steelers", "Seattle Seahawks", "New England Patriots"],
+                correct: 0
+            },
+            {
+                question: "Which team signed Marcus Mariota during the 2026 free agency?",
+                answers: ["Atlanta Falcons", "Washington Commanders", "Philadelphia Eagles", "Dallas Cowboys"],
+                correct: 1
+            },
+            {
+                question: "Which team signed Kenneth Walker during the 2026 free agency?",
+                answers: ["Green Bay Packers", "Seattle Seahawks", "Minnesota Vikings", "Kansas City Chiefs"],
+                correct: 3
+            },
+            {
+                question: "Which team signed Minkah Fitzpatrick during the 2026 free agency?",
+                answers: ["Arizona Cardinals", "Baltimore Ravens", "NY Jets", "NY Giants"],
+                correct: 2
+            }
+        ]
+    },
     
         {
         id: "medium-teams-quiz",
@@ -1241,6 +1300,7 @@ window.quizzes = [
     },
 //#endregion
 ];
+
 
 
 
