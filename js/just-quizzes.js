@@ -1063,6 +1063,65 @@ window.quizzes = [
             }
         ]
     },
+
+            {
+        id: "hard-player-quiz-4",
+        title: "2026 NFL Free Agency Quiz",
+        category: "players",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Which team signed Chig Okonkwo during the 2026 NFL free agency?",
+                answers: ["Tennessee Titans", "NY Giants", "Washington Commanders", "NY Jets"],
+                correct: 2
+            },
+            {
+                question: "Which team signed Leo Chenal during the 2026 NFL free agency?",
+                answers: ["Seattle Seahawks", "New Orleans Saints", "Washington Commanders", "Kansas City Chiefs"],
+                correct: 2
+            },
+            {
+                question: "Which team signed Elgton Jenkins during the 2026 NFL free agency?",
+                answers: ["Cleveland Browns", "Carolina Panthers", "Green Bay Packers", "Arizona Cardinals"],
+                correct: 0
+            },
+            {
+                question: "Which team signed Ka'imi Fairbairn during the 2026 NFL free agency?",
+                answers: ["NY Giants", "Houston Texans", "Las Vegas Raiders", "Atlanta Falcons"],
+                correct: 1
+            },
+            {
+                question: "Which team signed Alijah Vera-Tucker during the 2026 NFL free agency?",
+                answers: ["NY Jets", "Las Vegas Raiders", "Cincinnati Bengals", "New England Patriots"],
+                correct: 3
+            },
+            {
+                question: "Which team signed Charlie Kolar during the 2026 NFL free agency?",
+                answers: ["NY Jets", "LA Chargers", "Tennessee Titans", "Seattle Seahawks"],
+                correct: 1
+            },
+            {
+                question: "Which team signed Tyquan Thornton during the 2026 NFL free agency?",
+                answers: ["Indianapolis Colts", "Las Vegas Raiders", "Kansas City Chiefs", "Green Bay Packers"],
+                correct: 2
+            },
+            {
+                question: "Which team signed Kendrick Bourne during the 2026 NFL free agency?",
+                answers: ["Pittsburgh Steelers", "Kansas City Chiefs", "NY Jets", "Arizona Cardinals"],
+                correct: 3
+            },
+            {
+                question: "Which team signed Alex Anzalone during the 2026 NFL free agency?",
+                answers: ["Tampa Bay Buccaneers", "Detroit Lions", "Jacksonville Jaguars", "New Orleans Saints"],
+                correct: 0
+            },
+            {
+                question: "Which team signed Jaylen Watson during the 2026 NFL free agency?",
+                answers: ["Chicago Bears", "LA Rams", "Seattle Seahawks", "Kansas City Chiefs"],
+                correct: 1
+            }
+        ]
+    },
     
     {
         id: "hard-draft-quiz",
