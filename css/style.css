@@ -35,6 +35,7 @@ header {
     padding: 24px 32px;
     background: transparent;
     border-bottom: 1px solid rgba(58, 191, 248, 0.15);
+    position: relative;
 }
 
 .site-title {
@@ -692,3 +693,66 @@ h1, h2 {
 
 }
 
+/* ================= BURGER MENU ================= */
+
+.menu-wrapper {
+    position: absolute;
+    top: 100%;
+    right: 20px;
+    margin-top: 10px;
+    z-index: 1000;
+}
+
+.menu-btn {
+    background: transparent;
+    border: 2px solid #3abff8;
+    color: #3abff8;
+    font-size: 22px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background: #3abff8;
+    color: #000;
+}
+
+/* Dropdown */
+
+.menu-dropdown {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background: #11161b;
+    border: 1px solid rgba(58, 191, 248, 0.3);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+/* Placeholder items */
+
+.menu-item-placeholder {
+    padding: 10px;
+    color: #9ca3af;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 8px;
+    cursor: default;
+}
+
+.menu-item-placeholder:hover {
+    background: rgba(58, 191, 248, 0.1);
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .menu-wrapper {
+    right: 15px;
+    margin-top: 8px;
+  }
+}
