@@ -226,6 +226,13 @@ function loadQuestion() {
   questionText.textContent =
     `(${currentQuestionIndex + 1}/${questions.length}) ${q.question}`;
 
+  // ✅ CHANGE BUTTON TEXT BASED ON LAST QUESTION
+  if (currentQuestionIndex === questions.length - 1) {
+    nextBtn.textContent = "Show Results";
+  } else {
+    nextBtn.textContent = "Next Question";
+  }
+
   let answerObjects = q.answers.map((text, index) => ({
     text,
     index // ORIGINAL index
@@ -279,39 +286,51 @@ function saveProgress() {
     JSON.parse(localStorage.getItem("completedQuizzes")) || {};
 
   if (selectedQuiz.id) {
-    progress[selectedQuiz.id] = {
-      score,
-      total: questions.length,
-      completedAt: new Date().toISOString().split("T")[0]
-    };
+    const existing = progress[selectedQuiz.id];
+
+    const newPercent = score / questions.length;
+    const oldPercent = existing
+      ? existing.score / existing.total
+      : 0;
+
+    // ✅ Only save if better score OR first attempt
+    if (!existing || newPercent > oldPercent) {
+      progress[selectedQuiz.id] = {
+        score,
+        total: questions.length,
+        completedAt: new Date().toISOString().split("T")[0]
+      };
+    }
+
     localStorage.setItem("completedQuizzes", JSON.stringify(progress));
   }
 
-if (selectedQuiz.title.startsWith("Random")) {
+  if (selectedQuiz.title.startsWith("Random")) {
 
-  // Save question history (existing)
-  saveRecentQuestions(
-    questions.filter(q => q._qid).map(q => q._qid)
-  );
+    // Save question history (existing)
+    saveRecentQuestions(
+      questions.filter(q => q._qid).map(q => q._qid)
+    );
 
-  // 🆕 Save random quiz stats
-  const randomStats =
-    JSON.parse(localStorage.getItem("randomQuizStats")) || {
-      count: 0,
-      totalPercentSum: 0
-    };
+    // 🆕 Save random quiz stats
+    const randomStats =
+      JSON.parse(localStorage.getItem("randomQuizStats")) || {
+        count: 0,
+        totalPercentSum: 0
+      };
 
-  const percent = Math.round((score / questions.length) * 100);
+    const percent = Math.round((score / questions.length) * 100);
 
-  randomStats.count += 1;
-  randomStats.totalPercentSum += percent;
+    randomStats.count += 1;
+    randomStats.totalPercentSum += percent;
 
-  localStorage.setItem(
-    "randomQuizStats",
-    JSON.stringify(randomStats)
-  );
+    localStorage.setItem(
+      "randomQuizStats",
+      JSON.stringify(randomStats)
+    );
+  }
 }
-}
+
 // =================== EVENTS ===================
 
 startQuizBtn.onclick = () => {
@@ -354,8 +373,7 @@ nextBtn.onclick = () => {
 };
 
 backHomeBtn.onclick = () => {
-  localStorage.removeItem("activeQuizState");
-  localStorage.removeItem("quizId");
+  localStorage.removeItem("quizId"); // optional
   window.location.href = "index.html";
 };
 
