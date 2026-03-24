@@ -305,21 +305,34 @@ function saveProgress() {
     localStorage.setItem("completedQuizzes", JSON.stringify(progress));
   }
 
+  // =================== TRACK ALL ATTEMPTS (FIXED) ===================
+
+  const attempts =
+    JSON.parse(localStorage.getItem("quizAttempts")) || {
+      count: 0,
+      totalPercentSum: 0
+    };
+
+  const percent = Math.round((score / questions.length) * 100);
+
+  attempts.count += 1;
+  attempts.totalPercentSum += percent;
+
+  localStorage.setItem("quizAttempts", JSON.stringify(attempts));
+
+  // =================== RANDOM QUIZ STATS ===================
+
   if (selectedQuiz.title.startsWith("Random")) {
 
-    // Save question history (existing)
     saveRecentQuestions(
       questions.filter(q => q._qid).map(q => q._qid)
     );
 
-    // 🆕 Save random quiz stats
     const randomStats =
       JSON.parse(localStorage.getItem("randomQuizStats")) || {
         count: 0,
         totalPercentSum: 0
       };
-
-    const percent = Math.round((score / questions.length) * 100);
 
     randomStats.count += 1;
     randomStats.totalPercentSum += percent;
