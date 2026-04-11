@@ -713,6 +713,65 @@ window.quizzes = [
             }
         ]
     },
+
+            {
+        id: "medium-draft-quiz 4",
+        title: "Guess where the following NFL players went to college",
+        category: "draft",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Where did Rashee Rice go to college?",
+                answers: ["Alabama", "Washington", "Oklahoma", "SMU"],
+                correct: 3
+            },
+            {
+                question: "Where did Drake Maye go to college?",
+                answers: ["USC", "UNC", "Clemson", "Ohio State"],
+                correct: 1
+            },
+            {
+                question: "Where did Drake London go to college?",
+                answers: ["USC", "Ohio State", "Ohio", "Virginia Tech"],
+                correct: 0
+            },
+            {
+                question: "Where did Cam Bynum go to college?",
+                answers: ["Oregon State", "California", "Colorado", "North Dakota State"],
+                correct: 1
+            },
+            {
+                question: "Where did Chris Jones go to college?",
+                answers: ["Alabama", "Michigan", "Jackson State", "Mississippi State"],
+                correct: 3
+            },
+            {
+                question: "Where did Brian Robinson Jr. go to college?",
+                answers: ["Alabama", "Georgia", "Northwestern", "Kansas State"],
+                correct: 0
+            },
+            {
+                question: "Where did Harrison Phillips go to college?",
+                answers: ["Arkansas", "Oklahoma State", "Stanford", "Utah State"],
+                correct: 2
+            },
+            {
+                question: "Where did Tristan Wirfs go to college?",
+                answers: ["Nebraska", "Iowa", "Indiana", "Colorado State"],
+                correct: 1
+            },
+            {
+                question: "Where did Treveyon Henderson go to college?",
+                answers: ["UNC", "Michigan State", "Ohio State", "Florida"],
+                correct: 2
+            },
+            {
+                question: "Where did Trent McDuffie go to college?",
+                answers: ["Alabama", "BYU", "Cincinnati", "Washington"],
+                correct: 3
+            }
+        ]
+    },
     
     {
         id: "medium-player-quiz",
