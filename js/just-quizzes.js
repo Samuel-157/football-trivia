@@ -1656,6 +1656,65 @@ window.quizzes = [
         ]
     },
 
+                 {
+        id: "hard-draft-quiz-4",
+        title: "Guess the NFL draft year by the selected players 2",
+        category: "draft",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "In which year was Todd Gurley drafted?",
+                answers: ["2011", "2013", "2014", "2015"],
+                correct: 3
+            },
+            {
+                question: "In which year was Trent McDuffie drafted?",
+                answers: ["2019", "2021", "2022", "2024"],
+                correct: 2
+            },
+            {
+                question: "In which year was Joe Flacco drafted?",
+                answers: ["2005", "2006", "2008", "2009"],
+                correct: 0
+            },
+            {
+                question: "In which year was Ryan Fitzpatrick drafted?",
+                answers: ["2003", "2005", "2007", "2008"],
+                correct: 1
+            },
+            {
+                question: "In which year was T.J. Watt drafted?",
+                answers: ["2015", "2016", "2017", "2019"],
+                correct: 2
+            },
+            {
+                question: "In which year was Brian Cushing drafted?",
+                answers: ["2005", "2008", "2009", "2010"],
+                correct: 2
+            },
+            {
+                question: "In which year was Najee Harris drafted?",
+                answers: ["2017", "2018", "2020", "2021"],
+                correct: 3
+            },
+            {
+                question: "In which year was Jake Matthews drafted?",
+                answers: ["2012", "2014", "2015", "2016"],
+                correct: 1
+            },
+            {
+                question: "In which year was Ladd McConkey drafted?",
+                answers: ["2020", "2022", "2023", "2024"],
+                correct: 3
+            },
+            {
+                question: "In which year was Marcus Trufant drafted?",
+                answers: ["2003", "2004", "2006", "2007"],
+                correct: 0
+            }
+        ]
+    },
+    
     {
         id: "hard-teams-quiz",
         title: "NFL franchise history quiz",
