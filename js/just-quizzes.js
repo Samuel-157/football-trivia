@@ -63,7 +63,7 @@ window.quizzes = [
     },
         {
         id: "easy-players-player-stats-2",
-        title: "NFL basic knowledge 2",
+        title: "NFL basic knowledge - 2",
         category: "players",
         difficulty: "easy",
         questions: [
@@ -184,7 +184,7 @@ window.quizzes = [
 
         {
         id: "easy-players-player-stats-4",
-        title: "Guess the positions of current NFL players 2",
+        title: "Guess the positions of current NFL players - 2",
         category: "players",
         difficulty: "easy",
         questions: [
@@ -419,7 +419,7 @@ window.quizzes = [
     },
         {
         id: "easy-teams-quiz 2",
-        title: "Guess the name of the NFL team 2",
+        title: "Guess the name of the NFL team - 2",
         category: "teams",
         difficulty: "easy",
         questions: [
@@ -478,7 +478,7 @@ window.quizzes = [
 
     {
         id: "easy-teams-quiz 3",
-        title: "Guess the name of the NFL team 3",
+        title: "Guess the name of the NFL team - 3",
         category: "teams",
         difficulty: "easy",
         questions: [
@@ -598,7 +598,7 @@ window.quizzes = [
 
         {
         id: "medium-draft-quiz 2",
-        title: "Guess the NFL draft year by the QBs selected 2",
+        title: "Guess the NFL draft year by the QBs selected - 2",
         category: "draft",
         difficulty: "medium",
         questions: [
@@ -1127,7 +1127,7 @@ window.quizzes = [
     },
             {
         id: "medium-teams-quiz-2",
-        title: "Guess the stadium of following NFL teams 2",
+        title: "Guess the stadium of following NFL teams - 2",
         category: "teams",
         difficulty: "medium",
         questions: [
@@ -1305,7 +1305,7 @@ window.quizzes = [
 
             {
         id: "hard-player-quiz-3",
-        title: "Guess the NFL player by jersey number 2",
+        title: "Guess the NFL player by jersey number - 2",
         category: "players",
         difficulty: "hard",
         questions: [
@@ -1540,7 +1540,7 @@ window.quizzes = [
     },
      {
         id: "hard-draft-quiz 2",
-        title: "Guess where following NFL players went to college 2",
+        title: "Guess where following NFL players went to college - 2",
         category: "draft",
         difficulty: "hard",
         questions: [
@@ -1658,7 +1658,7 @@ window.quizzes = [
 
                  {
         id: "hard-draft-quiz-4",
-        title: "Guess the NFL draft year by the selected players 2",
+        title: "Guess the NFL draft year by the selected players - 2",
         category: "draft",
         difficulty: "hard",
         questions: [
