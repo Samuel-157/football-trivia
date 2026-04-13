@@ -534,6 +534,66 @@ window.quizzes = [
             }
         ]
     },
+
+            {
+        id: "easy-teams-quiz-4",
+        title: "Fun general knowledge quiz on NFL teams",
+        category: "teams",
+        difficulty: "easy",
+        questions: [
+            {
+                question: "What was the name of the Washington Commanders before they changed it?",
+                answers: ["Washington Elefants", "Washington Redskins", "Washington Capitals", "Washington Thieves"],
+                correct: 1
+            },
+            {
+                question: "How many US cities have 2 NFL teams?",
+                answers: ["0 cities", "1 city", "2 cities", "5 cities"],
+                correct: 2
+            },
+            {
+                question: "Where did the Las Vegas Raiders play before relocating to Las Vegas?",
+                answers: ["Portland", "Fresno", "Sacramento", "Oakland"],
+                correct: 3
+            },
+            {
+                question: "What NFL stadium recorded the loudest crowd noise in NFL history?",
+                answers: ["Lumen Field", "Highmark Stadium", "Arrowhead Stadium", "Caesars Superdome"],
+                correct: 2
+            },
+            {
+                question: "How many NFL teams have domes as their stadiums?",
+                answers: ["4 teams", "5 teams", "7 teams", "8 teams"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team's fanbase has the nickname: Cheeseheads?",
+                answers: ["Green Bay Packers", "Tampa Bay Buccaneers", "Detroit Lions", "Pittsburgh Steelers"],
+                correct: 0
+            },
+            {
+                question: "Where did the LA Rams play before relocating to Los Angeles?",
+                answers: ["St. Louis", "Kansas City", "Raleigh", "El Paso"],
+                correct: 0
+            },
+            {
+                question: "Guess the biggest NFL stadium (by capacity)?",
+                answers: ["SoFi Stadium", "Arrowhead Stadium", "MetLife Stadium", "Lambeau Field"],
+                correct: 2
+            },
+            {
+                question: "Which US state has the most NFL teams?",
+                answers: ["Texas", "Florida & California", "New York & California", "Ohio & Texas"],
+                correct: 1
+            },
+            {
+                question: "Which of the following US states has no NFL team?",
+                answers: ["Louisiana", "New Jersey", "Wisconsin", "Virginia"],
+                correct: 3
+            }
+        ]
+    },
+    
 //#endregion
 
 //#region MEDIUM
