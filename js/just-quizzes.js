@@ -1243,6 +1243,66 @@ window.quizzes = [
             }
         ]
     },
+
+                {
+        id: "medium-teams-quiz-3",
+        title: "Fun general knowledge quiz on NFL teams",
+        category: "teams",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Where did the Kansas City Chiefs play before relocating to Kansas City?",
+                answers: ["Tallahassee", "St. Louis", "Boston", "Dallas"],
+                correct: 3
+            },
+            {
+                question: "Guess the northernmost team in the NFL (geographically)?",
+                answers: ["New England Patriots", "Cleveland Browns", "Denver Broncos", "Seattle Seahawks"],
+                correct: 3
+            },
+            {
+                question: "Guess the southernmost team in the NFL (geographically)?",
+                answers: ["Los Angeles Chargers", "Miami Dolphins", "Tampa Bay Buccaneers", "Arizona Cardinals"],
+                correct: 1
+            },
+            {
+                question: "How many NFL teams share its stadium with a college football team?",
+                answers: ["1", "2", "3", "6"],
+                correct: 3
+            },
+            {
+                question: "Which of the following 4 NFL teams does not share their stadium with a college football team?",
+                answers: ["Houston Texans", "Miami Dolphins", "Pittsburgh Steelers", "Las Vegas Raiders"],
+                correct: 0
+            },
+            {
+                question: "Guess the easternmost team in the NFL (geographically)?",
+                answers: ["Miami Dolphins", "Jacksonville Jaguars", "New England Patriots", "Buffalo Bills"],
+                correct: 2
+            },
+            {
+                question: "Guess the westernmost team in the NFL (geographically)?",
+                answers: ["San Francisco 49ers", "Seattle Seahawks", "Los Angeles Rams", "Arizona Cardinals"],
+                correct: 1
+            },
+            {
+                question: "Guess the biggest NFL stadium (by capacity)?",
+                answers: ["SoFi Stadium", "Arrowhead Stadium", "MetLife Stadium", "Lambeau Field"],
+                correct: 2
+            },
+            {
+                question: "Guess the smallest NFL stadium (by capacity)?",
+                answers: ["Soldier Field", "Ford Field", "Hard Rock Stadium", "Highmark Stadium"],
+                correct: 0
+            },
+            {
+                question: "How many NFL teams have a bird as their logo?",
+                answers: ["1", "4", "5", "7"],
+                correct: 2
+            }
+        ]
+    },
+    
 //#endregion
 
 //#region HARD
