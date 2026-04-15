@@ -832,6 +832,65 @@ window.quizzes = [
             }
         ]
     },
+
+       {
+        id: "medium-draft-quiz-5",
+        title: "Guess where the top 10 2026 NFL Draft prospects went to college",
+        category: "draft",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Prospect #1: Where did Arvell Reese go to college?",
+                answers: ["UFC", "Colorado", "Ohio State", "Penn State"],
+                correct: 2
+            },
+            {
+                question: "Prospect #2: Where did Fernando Mendoza go to college?",
+                answers: ["Miami", "Indiana", "Ohio State", "Rutgers"],
+                correct: 1
+            },
+            {
+                question: "Prospect #3: Where did David Bailey go to college?",
+                answers: ["Texas Tech", "BYU", "Miami", "Clemson"],
+                correct: 0
+            },
+            {
+                question: "Prospect #4: Where did Jeremiyah Love go to college?",
+                answers: ["Florida", "Penn State", "Notre Dame", "Indiana"],
+                correct: 2
+            },
+            {
+                question: "Prospect #5: Where did Francis Mauigoa go to college?",
+                answers: ["Miami", "Alabama", "Iowa", "Florida State"],
+                correct: 0
+            },
+            {
+                question: "Prospect #6: Where did Caleb Downs go to college?",
+                answers: ["Oregon", "Notre Dame", "Kansas", "Ohio State"],
+                correct: 3
+            },
+            {
+                question: "Prospect #7: Where did Sonny Styles go to college?",
+                answers: ["Penn State", "Tennessee", "Arizona State", "Ohio State"],
+                correct: 3
+            },
+            {
+                question: "Prospect #8: Where did Mansoor Delane go to college?",
+                answers: ["Texas A&M", "LSU", "Nebraska", "Clemson"],
+                correct: 1
+            },
+            {
+                question: "Prospect #9: Where did Rueben Bain Jr. go to college?",
+                answers: ["Miami", "Georgia", "Texas", "Washington"],
+                correct: 0
+            },
+            {
+                question: "Prospect #10: Where did Makai Lemon go to college?",
+                answers: ["Oregon", "USC", "Ohio State", "Washington"],
+                correct: 1
+            }
+        ]
+    },
     
     {
         id: "medium-player-quiz",
