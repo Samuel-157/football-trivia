@@ -2071,6 +2071,65 @@ window.quizzes = [
             }
         ]
     },
+
+    {
+        id: "hard-teams-quiz-3",
+        title: "Guess the best NFL team in the following statistics",
+        category: "teams",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Which team led the NFL in total offensive yards this season (2025)?",
+                answers: ["Kansas City Chiefs", "LA Rams", "New England Patriots", "Buffalo Bills"],
+                correct: 1
+            },
+            {
+                question: "Which team led the NFL in passing yards this season (2025)?",
+                answers: ["San Francisco 49ers", "LA Rams", "Dallas Cowboys", "Buffalo Bills"],
+                correct: 1
+            },
+            {
+                question: "Which team led the NFL in rushing yards this season (2025)?",
+                answers: ["Chicago Bears", "LA Rams", "Buffalo Bills", "NY Giants"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team scored the most points per game this season (2025)?",
+                answers: ["Seattle Seahawks", "Buffalo Bills", "LA Rams", "Jacksonville Jaguars"],
+                correct: 2
+            },
+            {
+                question: "Which team led the NFL in penalties this season (2025)?",
+                answers: ["Minnesota Vikings", "Jacksonville Jaguars", "NY Giants", "Dallas Cowboys"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team received the fewest penalties this season (2025)?",
+                answers: ["Kansas City Chiefs", "San Francisco 49ers", "LA Rams", "Buffalo Bills"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team allowed the fewest yards this season (2025)?",
+                answers: ["Houston Texans", "Minnesota Vikings", "Los Angeles Chargers", "Denver Broncos"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team allowed the fewest points per game this season (2025)?",
+                answers: ["Houston Texans", "Seattle Seahawks", "Kansas City Chiefs", "New England Patriots"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team recorded the most Sacks this season (2025)?",
+                answers: ["Cleveland Browns", "Pittsburgh Steelers", "Atlanta Falcons", "Denver Broncos"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team recorded the most Interceptions this season (2025)?",
+                answers: ["Jacksonville Jaguars", "Houston Texans", "NY Jets", "Seattle Seahawks"],
+                correct: 0
+            }
+        ]
+    },
 //#endregion
 ];
 
