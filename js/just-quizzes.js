@@ -891,6 +891,65 @@ window.quizzes = [
             }
         ]
     },
+
+    {
+        id: "medium-draft-quiz-6",
+        title: "Guess the first 10 picks of the 2026 NFL draft",
+        category: "draft",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Which player was selected first overall by the Las Vegas Raiders?",
+                answers: ["Fernando Mendoza", "Arvell Reese", "David Bailey", "Ty Simpson"],
+                correct: 0
+            },
+            {
+                question: "Which player was selected second overall by the NY Jets?",
+                answers: ["Sonny Styles", "Arvell Reese", "David Bailey", "Jeremiyah Love"],
+                correct: 2
+            },
+            {
+                question: "Which player was selected third overall by the Arizona Cardinals?",
+                answers: ["Carnell Tate", "Jeremiyah Love", "Sonny Styles", "Arvell Reese"],
+                correct: 1
+            },
+            {
+                question: "Which player was selected fourth overall by the Tennessee Titans?",
+                answers: ["Arvell Reese", "Sonny Styles", "Carnell Tate", "Francis Mauigoa"],
+                correct: 2
+            },
+            {
+                question: "Which player was selected fifth overall by the NY Giants?",
+                answers: ["Arvell Reese", "Francis Mauigoa", "Sonny Styles", "Caleb Downs"],
+                correct: 0
+            },
+            {
+                question: "Which player was selected sixth overall by the Kansas City Chiefs?",
+                answers: ["Caleb Downs", "Francis Mauigoa", "Spencer Fano", "Mansoor Delane"],
+                correct: 3
+            },
+            {
+                question: "Which player was selected seventh overall by the Washington Commanders?",
+                answers: ["Francis Mauigoa", "Sonny Styles", "Caleb Downs", "Jordyn Tyson"],
+                correct: 1
+            },
+            {
+                question: "Which player was selected eighth overall by the New Orleans Saints?",
+                answers: ["Francis Mauigoa", "Caleb Downs", "Kadyn Proctor", "Jordyn Tyson"],
+                correct: 3
+            },
+            {
+                question: "Which player was selected ninth overall by the Cleveland Browns?",
+                answers: ["Kadyn Proctor", "Francis Mauigoa", "Spencer Fano", "Caleb Downs"],
+                correct: 2
+            },
+            {
+                question: "Which player was selected tenth overall by the NY Giants?",
+                answers: ["Kadyn Proctor", "Francis Mauigoa", "Caleb Downs", "Ty Simpson"],
+                correct: 1
+            }
+        ]
+    },
     
     {
         id: "medium-player-quiz",
