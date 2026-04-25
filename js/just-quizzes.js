@@ -2089,7 +2089,7 @@ window.quizzes = [
                 correct: 1
             },
             {
-                question: "Which player was selected thirteenth overall by the Los Angeles Rams?",
+                question: "Which player was selected thirteenth overall by the LA Rams?",
                 answers: ["KC Concepcion", "Rueben Bain Jr.", "Makai Lemon", "Ty Simpson"],
                 correct: 3
             },
