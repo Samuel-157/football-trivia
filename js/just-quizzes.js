@@ -2071,6 +2071,65 @@ window.quizzes = [
             }
         ]
     },
+
+    {
+        id: "hard-draft-quiz-5",
+        title: "Guess picks 11-20 of the 2026 NFL draft",
+        category: "draft",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Which player was selected eleventh overall by the Dallas Cowboys?",
+                answers: ["Kadyn Proctor", "Mansoor Delane", "Caleb Downs", "Olaivavega Ioane"],
+                correct: 2
+            },
+            {
+                question: "Which player was selected twelfth overall by the Miami Dolphins?",
+                answers: ["Olaivavega Ioane", "Kadyn Proctor", "Rueben Bain Jr.", "Blake Miller"],
+                correct: 1
+            },
+            {
+                question: "Which player was selected thirteenth overall by the Los Angeles Rams?",
+                answers: ["KC Concepcion", "Rueben Bain Jr.", "Makai Lemon", "Ty Simpson"],
+                correct: 3
+            },
+            {
+                question: "Which player was selected fourteenth overall by the Baltimore Ravens?",
+                answers: ["Rueben Bain Jr.", "Olaivavega Ioane", "Makai Lemon", "Kenyon Sadiq"],
+                correct: 1
+            },
+            {
+                question: "Which player was selected fifteenth overall by the Tampa Bay Buccaneers?",
+                answers: ["Rueben Bain Jr.", "Kenyon Sadiq", "Makai Lemon", "Omar Cooper Jr."],
+                correct: 0
+            },
+            {
+                question: "Which player was selected sixteenth overall by the NY Jets?",
+                answers: ["Omar Cooper Jr.", "Makai Lemon", "Akheem Mesidor", "Kenyon Sadiq"],
+                correct: 3
+            },
+            {
+                question: "Which player was selected seventeenth overall by the Detroit Lions?",
+                answers: ["Caleb Banks", "Dillon Thieneman", "Blake Miller", "Akheem Mesidor"],
+                correct: 2
+            },
+            {
+                question: "Which player was selected eighteenth overall by the Minnesota Vikings?",
+                answers: ["Dillon Thieneman", "Caleb Banks", "Makai Lemon", "Chris Johnson"],
+                correct: 1
+            },
+            {
+                question: "Which player was selected nineteenth overall by the Carolina Panthers?",
+                answers: ["Monroe Freeling", "Dillon Thieneman", "Caleb Lomu", "Jadarian Price"],
+                correct: 0
+            },
+            {
+                question: "Which player was selected twentieth overall by the Philadelphia Eagles?",
+                answers: ["Makai Lemon", "Caleb Lomu", "Akheem Mesidor", "KC Concepcion"],
+                correct: 0
+            }
+        ]
+    },
     
     {
         id: "hard-teams-quiz",
