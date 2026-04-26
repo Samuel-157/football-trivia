@@ -177,7 +177,7 @@ if (
 const questions =
   quizType === "random"
     ? selectedQuiz.questions
-    : selectedQuiz.questions.slice(0, MAX_QUESTIONS);
+    : selectedQuiz.questions;
 
 // =================== RESTORE RANDOM QUESTIONS ===================
 
