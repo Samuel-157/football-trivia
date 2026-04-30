@@ -712,6 +712,65 @@ window.quizzes = [
             }
         ]
     },
+
+        {
+        id: "easy-teams-quiz-5",
+        title: "Guess the last ten Super Bowl–winning teams",
+        category: "teams",
+        difficulty: "easy",
+        questions: [
+            {
+                question: "Which NFL team won Super Bowl 60? (2026)",
+                answers: ["New England Patriots", "Detroit Lions", "LA Rams", "Seattle Seahawks"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 59? (2025)",
+                answers: ["LA Rams", "Philadelphia Eagles", "San Francisco 49ers", "Kansas City Chiefs"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 58? (2024)",
+                answers: ["Buffalo Bills", "San Francisco 49ers", "Philadelphia Eagles", "Kansas City Chiefs"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 57? (2023)",
+                answers: ["Kansas City Chiefs", "Cincinnati Bengals", "Green Bay Packers", "Philadelphia Eagles"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 56? (2022)",
+                answers: ["Cincinnati Bengals", "Tampa Bay Buccaneers", "LA Rams", "Buffalo Bills"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 55? (2021)",
+                answers: ["Tampa Bay Buccaneers", "Kansas City Chiefs", "Cleveland Browns", "Green Bay Packers"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 54? (2020)",
+                answers: ["Pittsburgh Steelers", "Kansas City Chiefs", "Seattle Seahawks", "San Francisco 49ers"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 53? (2019)",
+                answers: ["LA Rams", "Carolina Panthers", "Kansas City Chiefs", "New England Patriots"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 52? (2018)",
+                answers: ["Denver Broncos", "Dallas Cowboys", "Philadelphia Eagles", "New England Patriots"],
+                correct: 2
+            },
+            {
+                question: "Which team won Super Bowl 51? (2017)",
+                answers: ["New England Patriots", "Denver Broncos", "Atlanta Falcons", "Carolina Panthers"],
+                correct: 0
+            }
+        ]
+    },
     
 //#endregion
 
