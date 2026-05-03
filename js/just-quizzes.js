@@ -765,7 +765,7 @@ window.quizzes = [
                 correct: 2
             },
             {
-                question: "Which team won Super Bowl 51? (2017)",
+                question: "Which NFL team won Super Bowl 51? (2017)",
                 answers: ["New England Patriots", "Denver Broncos", "Atlanta Falcons", "Carolina Panthers"],
                 correct: 0
             }
