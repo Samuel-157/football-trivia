@@ -1599,7 +1599,7 @@ window.quizzes = [
         ]
     },
 
-                {
+    {
         id: "medium-teams-quiz-3",
         title: "Fun general knowledge quiz on NFL teams",
         category: "teams",
@@ -1653,6 +1653,65 @@ window.quizzes = [
             {
                 question: "How many NFL teams have a bird as their logo?",
                 answers: ["1", "4", "5", "7"],
+                correct: 2
+            }
+        ]
+    },
+
+        {
+        id: "medium-teams-quiz-4",
+        title: "Guess the Super Bowl–winning teams year by year – Part 2",
+        category: "teams",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Which NFL team won Super Bowl 50? (2016)",
+                answers: ["Carolina Panthers", "Seattle Seahawks", "Denver Broncos", "New England Patriots"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 49? (2015)",
+                answers: ["Kansas City Chiefs", "New England Patriots", "LA Rams", "Seattle Seahawks"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 48? (2014)",
+                answers: ["Seattle Seahawks", "New England Patriots", "Denver Broncos", "Atlanta Falcons"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 47? (2013)",
+                answers: ["San Francisco 49ers", "Baltimore Ravens", "Green Bay Packers", "Pittsburgh Steelers"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 46? (2012)",
+                answers: ["New Orleans Saints", "New England Patriots", "NY Jets", "NY Giants"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 45? (2011)",
+                answers: ["Green Bay Packers", "NY Giants", "Pittsburgh Steelers", "Indianapolis Colts"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 44? (2010)",
+                answers: ["Seattle Seahawks", "Indianapolis Colts", "Denver Broncos", "New Orleans Saints"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 43? (2009)",
+                answers: ["Arizona Cardinals", "Pittsburgh Steelers", "New England Patriots", "New Orleans Saints"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 42? (2008)",
+                answers: ["Indianapolis Colts", "New England Patriots", "NY Giants", "Arizona Cardinals"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 41? (2007)",
+                answers: ["Denver Broncos", "Seattle Seahawks", "Indianapolis Colts", "Chicago Bears"],
                 correct: 2
             }
         ]
