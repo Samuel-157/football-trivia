@@ -715,7 +715,7 @@ window.quizzes = [
 
         {
         id: "easy-teams-quiz-5",
-        title: "Guess the last ten Super Bowl–winning teams",
+        title: "Guess the Super Bowl–winning teams year by year",
         category: "teams",
         difficulty: "easy",
         questions: [
