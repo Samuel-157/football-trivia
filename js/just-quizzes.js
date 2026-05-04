@@ -1716,6 +1716,65 @@ window.quizzes = [
             }
         ]
     },
+
+        {
+        id: "medium-teams-quiz-5",
+        title: "Guess the Super Bowl–winning teams year by year – Part 3",
+        category: "teams",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Which NFL team won Super Bowl 40? (2006)",
+                answers: ["Pittsburgh Steelers", "NY Giants", "New England Patriots", "Seattle Seahawks"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 39? (2005)",
+                answers: ["Oakland Raiders", "Carolina Panthers", "New England Patriots", "Philadelphia Eagles"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 38? (2004)",
+                answers: ["New England Patriots", "Baltimore Ravens", "Carolina Panthers", "Chicago Bears"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 37? (2003)",
+                answers: ["Seattle Seahawks", "Oakland Raiders", "New England Patriots", "Tampa Bay Buccaneers"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 36? (2002)",
+                answers: ["Arizona Cardinals", "Pittsburgh Steelers", "St. Louis Rams", "New England Patriots"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 35? (2001)",
+                answers: ["Denver Broncos", "Baltimore Ravens", "NY Giants", "Green Bay Packers"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 34? (2000)",
+                answers: ["St. Louis Rams", "Baltimore Ravens", "Tennessee Titans", "Atlanta Falcons"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 33? (1999)",
+                answers: ["NY Giants", "Denver Broncos", "Atlanta Falcons", "Oakland Raiders"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 32? (1998)",
+                answers: ["Green Bay Packers", "St. Louis Rams", "Denver Broncos", "Dallas Cowboys"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 31? (1997)",
+                answers: ["San Francisco 49ers", "New England Patriots", "Pittsburgh Steelers", "Green Bay Packers"],
+                correct: 3
+            }
+        ]
+    },
     
 //#endregion
 
