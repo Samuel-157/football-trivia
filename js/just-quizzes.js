@@ -2790,6 +2790,65 @@ window.quizzes = [
             }
         ]
     },
+
+        {
+        id: "hard-teams-quiz-5",
+        title: "Guess the Super Bowl–winning teams year by year – Part 5",
+        category: "teams",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Which NFL team won Super Bowl 20? (1986)",
+                answers: ["Chicago Bears", "Houston Oilers", "New England Patriots", "NY Giants"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 19? (1985)",
+                answers: ["Dallas Cowboys", "Miami Dolphins", "San Francisco 49ers", "Arizona Cardinals"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 18? (1984)",
+                answers: ["Cincinnati Bengals", "Los Angeles Raiders", "Green Bay Packers", "Washington Redskins"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 17? (1983)",
+                answers: ["Chicago Bears", "Miami Dolphins", "Washington Redskins", "Cleveland Browns"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 16? (1982)",
+                answers: ["Dallas Cowboys", "Cincinnati Bengals", "Buffalo Bills", "San Francisco 49ers"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 15? (1981)",
+                answers: ["Oakland Raiders", "Kansas City Chiefs", "New Orleans Saints", "Philadelphia Eagles"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 14? (1980)",
+                answers: ["Green Bay Packers", "Pittsburgh Steelers", "LA Rams", "Oakland Raiders"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 13? (1979)",
+                answers: ["Dallas Cowboys", "New England Patriots", "Chicago Bears", "Pittsburgh Steelers"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 12? (1978)",
+                answers: ["Kansas City Chiefs", "Minnesota Vikings", "Dallas Cowboys", "Denver Broncos"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 11? (1977)",
+                answers: ["Oakland Raiders", "Baltimore Colts", "Minnesota Vikings", "Houston Oilers"],
+                correct: 0
+            }
+        ]
+    },
     
 //#endregion
 ];
