@@ -2731,6 +2731,66 @@ window.quizzes = [
             }
         ]
     },
+
+            {
+        id: "hard-teams-quiz-4",
+        title: "Guess the Super Bowl–winning teams year by year – Part 4",
+        category: "teams",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Which NFL team won Super Bowl 30? (1996)",
+                answers: ["Pittsburgh Steelers", "Green Bay Packers", "San Diego Chargers", "Dallas Cowboys"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 29? (1995)",
+                answers: ["San Diego Chargers", "San Francisco 49ers", "Denver Broncos", "Washington Redskins"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 28? (1994)",
+                answers: ["New England Patriots", "NY Giants", "Buffalo Bills", "Dallas Cowboys"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 27? (1993)",
+                answers: ["Dallas Cowboys", "Denver Broncos", "San Diego Chargers", "Buffalo Bills"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 26? (1992)",
+                answers: ["Buffalo Bills", "San Francisco 49ers", "Washington Redskins", "Baltimore Ravens"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 25? (1991)",
+                answers: ["Buffalo Bills", "NY Giants", "NY Jets", "Arizona Cardinals"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 24? (1990)",
+                answers: ["San Francisco 49ers", "Denver Broncos", "Cleveland Browns", "Green Bay Packers"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 23? (1989)",
+                answers: ["Philadelphia Eagles", "Cincinnati Bengals", "Miami Dolphins", "San Francisco 49ers"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 22? (1988)",
+                answers: ["Buffalo Bills", "Washington Redskins", "Denver Broncos", "Dallas Cowboys"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 21? (1987)",
+                answers: ["Miami Dolphins", "Chicago Bears", "NY Giants", "Denver Broncos"],
+                correct: 2
+            }
+        ]
+    },
+    
 //#endregion
 ];
 
