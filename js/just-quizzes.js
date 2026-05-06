@@ -2883,7 +2883,7 @@ window.quizzes = [
             },
             {
                 question: "Which NFL team won Super Bowl 5? (1971)",
-                answers: ["Baltimore Colts", "Philadephia Eagles", "Dallas Cowboys", "Kansas City Chiefs"],
+                answers: ["Baltimore Colts", "Philadelphia Eagles", "Dallas Cowboys", "Kansas City Chiefs"],
                 correct: 0
             },
             {
