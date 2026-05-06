@@ -2849,6 +2849,66 @@ window.quizzes = [
             }
         ]
     },
+
+    {
+        id: "hard-teams-quiz-6",
+        title: "Guess the Super Bowl–winning teams year by year – Part 6",
+        category: "teams",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Which NFL team won Super Bowl 10? (1976)",
+                answers: ["Dallas Cowboys", "Kansas City Chiefs", "Pittsburgh Steelers", "Green Bay Packers"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 9? (1975)",
+                answers: ["Dallas Cowboys", "Pittsburgh Steelers", "Minnesota Vikings", "San Diego Chargers"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 8? (1974)",
+                answers: ["Minnesota Vikings", "Atlanta Falcons", "Oakland Raiders", "Miami Dolphins"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 7? (1973)",
+                answers: ["Baltimore Colts", "Miami Dolphins", "Chicago Bears", "Washington Redskins"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 6? (1972)",
+                answers: ["Houston Oilers", "Dallas Cowboys", "Miami Dolphins", "LA Rams"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team won Super Bowl 5? (1971)",
+                answers: ["Baltimore Colts", "Philadephia Eagles", "Dallas Cowboys", "Kansas City Chiefs"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 4? (1970)",
+                answers: ["Denver Broncos", "Washington Redskins", "San Francisco 49ers", "Kansas City Chiefs"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team won Super Bowl 3? (1969)",
+                answers: ["NY Giants", "Baltimore Colts", "NY Jets", "Tampa Bay Buccaneers"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team won Super Bowl 2? (1968)",
+                answers: ["Green Bay Packers", "NY Jets", "Oakland Raiders", "LA Rams"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team won Super Bowl 1? (1967)",
+                answers: ["Kansas City Chiefs", "San Francisco 49ers", "Denver Broncos", "Green Bay Packers"],
+                correct: 3
+            }
+        ]
+    },
+
     
 //#endregion
 ];
