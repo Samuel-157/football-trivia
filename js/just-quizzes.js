@@ -1484,7 +1484,7 @@ window.quizzes = [
     
     {
         id: "medium-teams-quiz",
-        title: "Guess the stadium of following NFL teams",
+        title: "Guess the stadiums of the following NFL teams",
         category: "teams",
         difficulty: "medium",
         questions: [
@@ -1542,7 +1542,7 @@ window.quizzes = [
     },
             {
         id: "medium-teams-quiz-2",
-        title: "Guess the stadium of following NFL teams - 2",
+        title: "Guess the stadiums of the following NFL teams – Part 2",
         category: "teams",
         difficulty: "medium",
         questions: [
@@ -1601,6 +1601,65 @@ window.quizzes = [
 
     {
         id: "medium-teams-quiz-3",
+        title: "Guess the stadiums of the following NFL teams – Part 3",
+        category: "teams",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Where do the Green Bay Packers play?",
+                answers: ["Camp Randall Stadium", "EverBank Stadium", "U.S. Bank Stadium", "Lambeau Field"],
+                correct: 3
+            },
+            {
+                question: "Where do the Detroit Lions play?",
+                answers: ["Nissan Stadium", "Michigan Stadium", "Ford Field", "Soldier Field"],
+                correct: 2
+            },
+            {
+                question: "Where do the New Orleans Saints play?",
+                answers: ["Hard Rock Stadium", "Cajun Field", "SoFi Stadium", "Caesars Superdome"],
+                correct: 3
+            },
+            {
+                question: "Where do the Tampa Bay Buccaneers play?",
+                answers: ["Acrisure Bounce House", "Raymond James Stadium", "Hard Rock Stadium", "Pitbull Stadium"],
+                correct: 1
+            },
+            {
+                question: "Where do the Arizona Cardinals play?",
+                answers: ["AT&T Stadium", "Casino Del Sol Stadium", "State Farm Stadium", "NRG Stadium"],
+                correct: 2
+            },
+            {
+                question: "Where do the Denver Broncos play?",
+                answers: ["Empower Field at Mile High", "Arrowhead Stadium", "Falcon Stadium", "Levi's Stadium"],
+                correct: 0
+            },
+            {
+                question: "Where do the Pittsburgh Steelers play?",
+                answers: ["Lincoln Financial Field", "Acrisure Stadium", "Huntington Bank Field", "Beaver Stadium"],
+                correct: 1
+            },
+            {
+                question: "Where do the Washington Commanders play?",
+                answers: ["Northwest Stadium", "Bank of America Stadium", "Navy-Marine Corps Memorial Stadium", "Lucas Oil Stadium"],
+                correct: 0
+            },
+            {
+                question: "Where do the Jacksonville Jaguars play?",
+                answers: ["Nissan Stadium", "Hard Rock Stadium", "Gillette Stadium", "EverBank Stadium"],
+                correct: 3
+            },
+            {
+                question: "Where do the Houston Texans play?",
+                answers: ["Paycor Stadium", "NRG Stadium", "MetLife Stadium", "Gerald J. Ford Stadium"],
+                correct: 1
+            }
+        ]
+    },
+
+    {
+        id: "medium-teams-quiz-4",
         title: "Fun general knowledge quiz on NFL teams",
         category: "teams",
         difficulty: "medium",
@@ -1659,7 +1718,7 @@ window.quizzes = [
     },
 
         {
-        id: "medium-teams-quiz-4",
+        id: "medium-teams-quiz-5",
         title: "Guess the Super Bowl–winning teams year by year – Part 2",
         category: "teams",
         difficulty: "medium",
@@ -1718,7 +1777,7 @@ window.quizzes = [
     },
 
         {
-        id: "medium-teams-quiz-5",
+        id: "medium-teams-quiz-6",
         title: "Guess the Super Bowl–winning teams year by year – Part 3",
         category: "teams",
         difficulty: "medium",
