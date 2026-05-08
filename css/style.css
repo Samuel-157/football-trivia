@@ -765,16 +765,19 @@ h1, h2 {
 
 /* Placeholder items */
 
-.menu-item-placeholder {
+.menu-item {
+    background: transparent;
+    border: none;
+    width: 100%;
     padding: 10px;
     color: #9ca3af;
     font-size: 14px;
     text-align: left;
     border-radius: 8px;
-    cursor: default;
+    cursor: pointer;
 }
 
-.menu-item-placeholder:hover {
+.menu-item:hover {
     background: rgba(58, 191, 248, 0.1);
 }
 
