@@ -55,3 +55,27 @@ document.addEventListener("click", (e) => {
     menuDropdown.classList.add("hidden");
   }
 });
+
+// ================= FEEDBACK BUTTON =================
+
+const feedbackBtn = document.getElementById("feedbackBtn");
+
+if (feedbackBtn) {
+  feedbackBtn.addEventListener("click", () => {
+
+    const subject = encodeURIComponent("Football Trivia Feedback");
+
+    const body = encodeURIComponent(
+`Hi,
+
+I want to give feedback about Football Trivia:
+
+`
+    );
+
+    const gmailUrl =
+      `https://mail.google.com/mail/?view=cm&fs=1&to=gymwriting@gmail.com&su=${subject}&body=${body}`;
+
+    window.open(gmailUrl, "_blank");
+  });
+}
