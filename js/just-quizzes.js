@@ -11,7 +11,7 @@ window.quizzes = [
         questions: [
             {
                 question: "What position does Tom Brady play?",
-                answers: ["RB", "QB", "WR", "TE"],
+                answers: ["Running back", "Quarterback", "Wide receiver", "Tight end"],
                 correct: 1
             },
             {
@@ -121,7 +121,6 @@ window.quizzes = [
         ]
     },
 
-    
             {
         id: "easy-players-player-stats-3",
         title: "Guess the positions of current NFL star players",
@@ -182,7 +181,7 @@ window.quizzes = [
         ]
     },
 
-        {
+    {
         id: "easy-players-player-stats-4",
         title: "Guess the positions of current NFL star players - 2",
         category: "players",
@@ -220,12 +219,12 @@ window.quizzes = [
             },
             {
                 question: "What position does Creed Humphrey play?",
-                answers: ["Linebacker", "Defensive tackle", "Offensive guard", "Center"],
+                answers: ["Linebacker", "Defensive tackle", "Guard", "Center"],
                 correct: 3
             },
             {
                 question: "What position does Quenton Nelson play?",
-                answers: ["Defensive tackle", "Offensive tackle", "Offensive guard", "Center"],
+                answers: ["Defensive tackle", "Offensive tackle", "Guard", "Center"],
                 correct: 2
             },
             {
@@ -301,7 +300,7 @@ window.quizzes = [
 
         ]
     },
-    
+
     {
         id: "easy-draft-quiz",
         title: "NFL Draft Basics",
@@ -360,7 +359,7 @@ window.quizzes = [
             }
         ]
     },
-        {
+    {
         id: "easy-draft-quiz-2",
         title: "Guess where following NFL players went to college - Easy version",
         category: "draft",
@@ -654,7 +653,7 @@ window.quizzes = [
         ]
     },
 
-            {
+        {
         id: "easy-teams-quiz-4",
         title: "Fun general knowledge quiz on NFL teams",
         category: "teams",
@@ -713,7 +712,7 @@ window.quizzes = [
         ]
     },
 
-        {
+    {
         id: "easy-teams-quiz-5",
         title: "Guess the Super Bowl–winning teams year by year",
         category: "teams",
@@ -771,7 +770,7 @@ window.quizzes = [
             }
         ]
     },
-    
+
 //#endregion
 
 //#region MEDIUM
@@ -893,7 +892,7 @@ window.quizzes = [
         ]
     },
 
-        {
+    {
         id: "medium-draft-quiz 3",
         title: "Guess the First Overall Pick of the following NFL Drafts",
         category: "draft",
@@ -952,7 +951,7 @@ window.quizzes = [
         ]
     },
 
-            {
+        {
         id: "medium-draft-quiz 4",
         title: "Guess where the following NFL players went to college",
         category: "draft",
@@ -1011,7 +1010,7 @@ window.quizzes = [
         ]
     },
 
-       {
+    {
         id: "medium-draft-quiz-5",
         title: "Guess where the top 10 2026 NFL Draft prospects went to college",
         category: "draft",
@@ -1070,7 +1069,7 @@ window.quizzes = [
         ]
     },
 
-    {
+        {
         id: "medium-draft-quiz-6",
         title: "Guess the first 10 picks of the 2026 NFL draft",
         category: "draft",
@@ -1130,7 +1129,7 @@ window.quizzes = [
     },
     
     {
-        id: "medium-player-quiz",
+        id: "medium-player-quiz-1",
         title: "Guess the NFL player by the teams he played for",
         category: "players",
         difficulty: "medium",
@@ -1187,11 +1186,13 @@ window.quizzes = [
             }
         ]
     },
-            {
+
+         {
         id: "medium-player-quiz-2",
-        title: "The Tom Brady Quiz - How well do you know this NFL legend",
+        title: "The Tom Brady Quiz - How well do you know this NFL legend?",
         category: "players",
         difficulty: "medium",
+        keywords: ["tom brady", "patriots", "buccaneers", "goat", "quarterback", "super bowl"],
         questions: [
             {
                 question: "Where did Tom Brady go to college?",
@@ -1245,8 +1246,7 @@ window.quizzes = [
             }
         ]
     },
-    
-                 {
+             {
         id: "medium-player-quiz-3",
         title: "The Aaron Rodgers Quiz - How well do you know this NFL superstar?",
         category: "players",
@@ -1305,7 +1305,7 @@ window.quizzes = [
         ]
     },
 
-                {
+             {
         id: "medium-player-quiz-4",
         title: "The Patrick Mahomes Quiz – How well do you know this NFL superstar?",
         category: "players",
@@ -1364,7 +1364,7 @@ window.quizzes = [
         ]
     },
 
-     {
+    {
         id: "medium-player-quiz-5",
         title: "2026 NFL Free Agency Quiz",
         category: "players",
@@ -1481,7 +1481,7 @@ window.quizzes = [
             }
         ]
     },
-    
+
     {
         id: "medium-teams-quiz",
         title: "Guess the stadiums of the following NFL teams",
@@ -1540,7 +1540,8 @@ window.quizzes = [
             }
         ]
     },
-            {
+
+    {
         id: "medium-teams-quiz-2",
         title: "Guess the stadiums of the following NFL teams – Part 2",
         category: "teams",
@@ -1681,7 +1682,7 @@ window.quizzes = [
             },
             {
                 question: "How many NFL teams share its stadium with a college football team?",
-                answers: ["1", "2", "3", "6"],
+                answers: ["1", "2", "3", "5"],
                 correct: 3
             },
             {
@@ -1717,7 +1718,7 @@ window.quizzes = [
         ]
     },
 
-        {
+    {
         id: "medium-teams-quiz-5",
         title: "Guess the Super Bowl–winning teams year by year – Part 2",
         category: "teams",
@@ -1776,7 +1777,7 @@ window.quizzes = [
         ]
     },
 
-        {
+    {
         id: "medium-teams-quiz-6",
         title: "Guess the Super Bowl–winning teams year by year – Part 3",
         category: "teams",
@@ -1834,7 +1835,7 @@ window.quizzes = [
             }
         ]
     },
-    
+
 //#endregion
 
 //#region HARD
@@ -1897,7 +1898,7 @@ window.quizzes = [
         ]
     },
 
-                {
+            {
         id: "hard-player-quiz-2",
         title: "Guess the NFL player by jersey number - 2",
         category: "players",
@@ -1955,7 +1956,7 @@ window.quizzes = [
             }
         ]
     },
-    
+
     {
         id: "hard-player-quiz-3",
         title: "Guess the NFL player by teams he played for",
@@ -1973,13 +1974,13 @@ window.quizzes = [
                 correct: 1
             },
             {
-                question: "St.Louis Rams - Cincinnati Bengals - Buffalo Bills - Tennessee Titans - Houston Texans - NY Jets - Tampa Bay Buccaneers - Miami Dolphins - Washington Commanders",
+                question: "St. Louis Rams - Cincinnati Bengals - Buffalo Bills - Tennessee Titans - Houston Texans - NY Jets - Tampa Bay Buccaneers - Miami Dolphins - Washington Commanders",
                 answers: ["Nick Foles", "Ryan Fitzpatrick", "Josh McCown", "Matt Cassel"],
                 correct: 1
             },
             {
                 question: "Miami Dolphins - Jacksonville Jaguars - Kansas City Chiefs",
-                answers: ["Gardner Minshew", "Tyreek Hill", "Blake Bortles", "Chade Henne"],
+                answers: ["Gardner Minshew", "Tyreek Hill", "Blake Bortles", "Chad Henne"],
                 correct: 3
             },
             {
@@ -2008,14 +2009,14 @@ window.quizzes = [
                 correct: 1
             },
             {
-                question: "Denver Broncos - Los Angeles Rams - Buffalo Bills - Washington Commanders",
-                answers: ["Leondard Floyd", "Case Keenum", "Von Miller", "Jeff Driskel"],
+                question: "Denver Broncos - LA Rams - Buffalo Bills - Washington Commanders",
+                answers: ["Leonard Floyd", "Case Keenum", "Von Miller", "Jeff Driskel"],
                 correct: 2
             }
         ]
-    },
+        },
 
-    {
+        {
         id: "hard-player-quiz-4",
         title: "2026 NFL Free Agency Quiz",
         category: "players",
@@ -2073,8 +2074,8 @@ window.quizzes = [
             }
         ]
     },
-    
-    {
+
+                 {
         id: "hard-player-quiz-5",
         title: "The John Elway Quiz – How Well Do You Know This NFL Legend?",
         category: "players",
@@ -2192,7 +2193,7 @@ window.quizzes = [
         ]
     },
 
-        {
+    {
         id: "hard-player-quiz-7",
         title: "The Andrew Luck Quiz – How Well Do You Know This NFL Legend?",
         category: "players",
@@ -2250,7 +2251,7 @@ window.quizzes = [
             },
         ]
     },
-    
+
     {
         id: "hard-draft-quiz",
         title: "Guess where following NFL players went to college",
@@ -2258,7 +2259,7 @@ window.quizzes = [
         difficulty: "hard",
         questions: [
             {
-                question: "Where did Isiah Pacheco go to college",
+                question: "Where did Isiah Pacheco go to college?",
                 answers: ["Michigan", "LSU", "Iowa State", "Rutgers"],
                 correct: 3
             },
@@ -2310,7 +2311,7 @@ window.quizzes = [
         ]
     },
      {
-        id: "hard-draft-quiz 2",
+        id: "hard-draft-quiz-2",
         title: "Guess where following NFL players went to college - 2",
         category: "draft",
         difficulty: "hard",
@@ -2368,8 +2369,8 @@ window.quizzes = [
         ]
     },
 
-            {
-        id: "hard-draft-quiz 3",
+         {
+        id: "hard-draft-quiz-3",
         title: "Guess the NFL draft year by the selected players",
         category: "draft",
         difficulty: "hard",
@@ -2427,7 +2428,7 @@ window.quizzes = [
         ]
     },
 
-                 {
+             {
         id: "hard-draft-quiz-4",
         title: "Guess the NFL draft year by the selected players - 2",
         category: "draft",
@@ -2613,7 +2614,7 @@ window.quizzes = [
             },
         ]
     },
-    
+
     {
         id: "hard-teams-quiz",
         title: "NFL franchise history quiz",
@@ -2673,7 +2674,7 @@ window.quizzes = [
         ]
     },
 
-            {
+        {
         id: "hard-teams-quiz-2",
         title: "Guess the Owner of the following NFL Franchises (2026)",
         category: "teams",
@@ -2791,7 +2792,7 @@ window.quizzes = [
         ]
     },
 
-            {
+    {
         id: "hard-teams-quiz-4",
         title: "Guess the Super Bowl–winning teams year by year – Part 4",
         category: "teams",
@@ -2850,7 +2851,7 @@ window.quizzes = [
         ]
     },
 
-        {
+    {
         id: "hard-teams-quiz-5",
         title: "Guess the Super Bowl–winning teams year by year – Part 5",
         category: "teams",
@@ -2968,14 +2969,6 @@ window.quizzes = [
         ]
     },
 
-    
 //#endregion
+
 ];
-
-
-
-
-
-
-
-
