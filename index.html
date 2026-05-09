@@ -45,9 +45,9 @@
      ✉️ Send Feedback
     </button>
 
-    <div class="menu-item-placeholder">
-      🔎 Search Quiz (coming soon)
-    </div>
+    <button id="searchQuizBtn" class="menu-item">
+     🔍 Search Quiz
+    </button>
 
     <div class="menu-item-placeholder">
       🏆 Leaderboard (coming soon)
@@ -103,8 +103,25 @@
     </div>
 </div>
 
-<script src="js/difficulty.js"></script>
-<script src="js/app.js"></script>
+<div id="searchModal" class="search-modal hidden">
+
+  <div class="search-container">
+
+    <input
+      type="text"
+      id="quizSearchInput"
+      placeholder="Search quizzes, players, teams, drafts..."
+      autocomplete="off"
+    >
+
+    <div id="recentQuizzes"></div>
+    <div id="searchResults"></div>
+
+    <div id="searchResults"></div>
+
+  </div>
+
+</div>
 
 <footer class="site-footer">
 <p>
@@ -119,6 +136,11 @@ This site may use local storage to save quiz progress. No personal data is colle
 For inquiries: gymwriting@gmail.com
 </p>
 </footer>
+
+<script src="js/difficulty.js"></script>
+<script src="js/app.js"></script>
+<script src="js/just-quizzes.js"></script>
+<script src="js/search.js"></script>
 
 </body>
 </html>
