@@ -1133,6 +1133,7 @@ window.quizzes = [
         title: "Guess the NFL player by the teams he played for",
         category: "players",
         difficulty: "medium",
+        keywords: ["NFL players", "career path", "teams played for", "changing team"],
         questions: [
             {
                 question: "New England Patriots - Tampa Bay Buccaneers",
@@ -1192,7 +1193,7 @@ window.quizzes = [
         title: "The Tom Brady Quiz - How well do you know this NFL legend?",
         category: "players",
         difficulty: "medium",
-        keywords: ["tom brady", "patriots", "buccaneers", "goat", "quarterback", "super bowl"],
+        keywords: ["tom brady", "patriots", "buccaneers", "goat", "NFL Quarterback", "super bowl"],
         questions: [
             {
                 question: "Where did Tom Brady go to college?",
@@ -1251,6 +1252,7 @@ window.quizzes = [
         title: "The Aaron Rodgers Quiz - How well do you know this NFL superstar?",
         category: "players",
         difficulty: "medium",
+        keywords: ["Packers", "Packers legend", "NFL Quarterback", "MVP"],
         questions: [
             {
                 question: "Where did Aaron Rodgers go to college?",
@@ -1310,6 +1312,7 @@ window.quizzes = [
         title: "The Patrick Mahomes Quiz – How well do you know this NFL superstar?",
         category: "players",
         difficulty: "medium",
+        keywords: ["Kansas City", "Kansas City Chiefs", "Super Bowl", "Super Bowl MVP", "NFL Quarterback"],
         questions: [
             {
                 question: "Which number does Patrick Mahomes wear for the Kansas City Chiefs?",
@@ -1369,6 +1372,7 @@ window.quizzes = [
         title: "2026 NFL Free Agency Quiz",
         category: "players",
         difficulty: "medium",
+        keywords: ["offseason", "free agents", "2026 season", "NFL season"],
         questions: [
             {
                 question: "Which team signed Jonathan Allen during the 2026 NFL free agency?",
@@ -1428,6 +1432,7 @@ window.quizzes = [
         title: "Guess the leaders in the following 2025 NFL season statistics – Offense",
         category: "players",
         difficulty: "medium",
+        keywords: ["statistics", "NFL", "best players", "leaders"],
         questions: [
             {
                 question: "Which player led the NFL in passing yards this season (2025)?",
@@ -1481,7 +1486,7 @@ window.quizzes = [
             }
         ]
     },
-
+    
     {
         id: "medium-teams-quiz",
         title: "Guess the stadiums of the following NFL teams",
