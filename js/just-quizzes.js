@@ -477,6 +477,66 @@ window.quizzes = [
         ]
     },
 
+        {
+        id: "easy-draft-quiz-4",
+        title: "Guess the positions of the last 10 first overall picks",
+        category: "draft",
+        difficulty: "easy",
+        keywords: ["draft", "first overall pick", "best player", "first player in draft"],
+        questions: [
+            {
+                question: "Which position does Jared Goff (2016 first overall pick) play?",
+                answers: ["Tight end", "Defensive end", "Quarterback", "Offensive tackle"],
+                correct: 2
+            },
+            {
+                question: "Which position does Myles Garrett (2017 first overall pick) play?",
+                answers: ["Defensive end", "Linebacker", "Quarterback", "Cornerback"],
+                correct: 0
+            },
+            {
+                question: "Which position does Baker Mayfield (2018 first overall pick) play?",
+                answers: ["Linebacker", "Defensive tackle", "Defensive end", "Quarterback"],
+                correct: 3
+            },
+            {
+                question: "Which position does Kyler Murray (2019 first overall pick) play?",
+                answers: ["Quarterback", "Runningback", "Safety", "Cornerback"],
+                correct: 0
+            },
+            {
+                question: "Which position does Joe Burrow (2020 first overall pick) play?",
+                answers: ["Tight end", "Quarterback", "Linebacker", "Offensive tackle"],
+                correct: 1
+            },
+            {
+                question: "Which position does Trevor Lawrence (2021 first overall pick) play?",
+                answers: ["Wide receiver", "Center", "Defensive end", "Quarterback"],
+                correct: 3
+            },
+            {
+                question: "Which position does Travon Walker (2022 first overall pick) play?",
+                answers: ["Defensive end", "Defensive tackle", "Quarterback", "Offensive tackle"],
+                correct: 0
+            },
+            {
+                question: "Which position does Bryce Young (2023 first overall pick) play?",
+                answers: ["Cornerback", "Quarterback", "Safety", "Linebacker"],
+                correct: 1
+            },
+            {
+                question: "Which position does Caleb Williams (2024 first overall pick) play?",
+                answers: ["Wide receiver", "Tight end", "Quarterback", "Defensive end"],
+                correct: 2
+            },
+            {
+                question: "Which position does Cam Ward (2025 first overall pick) play?",
+                answers: ["Quarterback", "Wide receiver", "Safety", "Linebacker"],
+                correct: 0
+            }
+        ]
+    },
+
     {
         id: "easy-teams-quiz",
         title: "Guess the name of the NFL team",
