@@ -831,6 +831,65 @@ window.quizzes = [
         ]
     },
 
+        {
+        id: "easy-teams-quiz-6",
+        title: "Guess the Super Bowl–losing teams year by year",
+        category: "teams",
+        difficulty: "easy",
+        questions: [
+            {
+                question: "Which NFL team lost Super Bowl 60? (2026)",
+                answers: ["Kansas City Chiefs", "New England Patriots", "Denver Broncos", "Seattle Seahawks"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team lost Super Bowl 59? (2025)",
+                answers: ["LA Chargers", "San Francisco 49ers", "Kansas City Chiefs", "Philadelphia Eagles"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 58? (2024)",
+                answers: ["Cincinnati Bengals", "Kansas City Chiefs", "San Francisco 49ers", "LA Rams"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 57? (2023)",
+                answers: ["New England Patriots", "Dallas Cowboys", "Kansas City Chiefs", "Philadelphia Eagles"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team lost Super Bowl 56? (2022)",
+                answers: ["Cincinnati Bengals", "LA Rams", "Buffalo Bills", "Green Bay Packers"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team lost Super Bowl 55? (2021)",
+                answers: ["Cincinnati Bengals", "Tampa Bay Buccaneers", "Minnesota Vikings", "Kansas City Chiefs"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team lost Super Bowl 54? (2020)",
+                answers: ["Kansas City Chiefs", "San Francisco 49ers", "LA Rams", "Pittsburgh Steelers"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team lost Super Bowl 53? (2019)",
+                answers: ["Atlanta Falcons", "New England Patriots", "LA Rams", "Denver Broncos"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 52? (2018)",
+                answers: ["New England Patriots", "Carolina Panthers", "Philadelphia Eagles", "Kansas City Chiefs"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team lost Super Bowl 51? (2017)",
+                answers: ["Indianapolis Colts", "New England Patriots", "Dallas Cowboys", "Atlanta Falcons"],
+                correct: 3
+            }
+        ]
+    },
+
 //#endregion
 
 //#region MEDIUM
