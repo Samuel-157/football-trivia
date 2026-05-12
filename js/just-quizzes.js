@@ -949,6 +949,65 @@ window.quizzes = [
         ]
     },
 
+    {
+        id: "easy-teams-quiz-8",
+        title: "Guess the Super Bowl–losing teams year by year – Part 2",
+        category: "teams",
+        difficulty: "easy",
+        questions: [
+            {
+                question: "Which NFL team lost Super Bowl 50? (2016)",
+                answers: ["Carolina Panthers", "LA Rams", "New England Patriots", "Denver Broncos"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team lost Super Bowl 49? (2015)",
+                answers: ["LA Rams", "New England Patriots", "Pittsburgh Steelers", "Seattle Seahawks"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team lost Super Bowl 48? (2014)",
+                answers: ["Seattle Seahawks", "Denver Broncos", "Green Bay Packers", "Baltimore Ravens"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team lost Super Bowl 47? (2013)",
+                answers: ["Indianapolis Colts", "Baltimore Ravens", "NY Giants", "San Francisco 49ers"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team lost Super Bowl 46? (2012)",
+                answers: ["NY Giants", "New England Patriots", "Oakland Raiders", "Carolina Panthers"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team lost Super Bowl 45? (2011)",
+                answers: ["Green Bay Packers", "Baltimore Ravens", "Pittsburgh Steelers", "Arizona Cardinals"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 44? (2010)",
+                answers: ["Tampa Bay Buccaneers", "Buffalo Bills", "Indianapolis Colts", "New Orleans Saints"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 43? (2009)",
+                answers: ["Arizona Cardinals", "Atlanta Falcons", "Pittsburgh Steelers", "Kansas City Chiefs"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team lost Super Bowl 42? (2008)",
+                answers: ["NY Giants", "New England Patriots", "NY Jets", "Chicago Bears"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team lost Super Bowl 41? (2007)",
+                answers: ["LA Chargers", "Indianapolis Colts", "Chicago Bears", "Minnesota Vikings"],
+                correct: 2
+            }
+        ]
+    },
+
 //#endregion
 
 //#region MEDIUM
