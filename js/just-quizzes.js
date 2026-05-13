@@ -3270,6 +3270,124 @@ window.quizzes = [
         ]
     },
 
+    {
+        id: "hard-teams-quiz-6",
+        title: "Guess the Super Bowl–losing teams year by year – Part 5",
+        category: "teams",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Which NFL team lost Super Bowl 20? (1986)",
+                answers: ["Chicago Bears", "Houston Oilers", "New England Patriots", "NY Giants"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 19? (1985)",
+                answers: ["Dallas Cowboys", "Miami Dolphins", "San Francisco 49ers", "Arizona Cardinals"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team lost Super Bowl 18? (1984)",
+                answers: ["Cincinnati Bengals", "Los Angeles Raiders", "Green Bay Packers", "Washington Redskins"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team lost Super Bowl 17? (1983)",
+                answers: ["Chicago Bears", "Miami Dolphins", "Washington Redskins", "Cleveland Browns"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team lost Super Bowl 16? (1982)",
+                answers: ["Dallas Cowboys", "Cincinnati Bengals", "Buffalo Bills", "San Francisco 49ers"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team lost Super Bowl 15? (1981)",
+                answers: ["Oakland Raiders", "Kansas City Chiefs", "New Orleans Saints", "Philadelphia Eagles"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team lost Super Bowl 14? (1980)",
+                answers: ["Green Bay Packers", "Pittsburgh Steelers", "LA Rams", "Oakland Raiders"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 13? (1979)",
+                answers: ["Dallas Cowboys", "New England Patriots", "Chicago Bears", "Pittsburgh Steelers"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team lost Super Bowl 12? (1978)",
+                answers: ["Kansas City Chiefs", "Minnesota Vikings", "Dallas Cowboys", "Denver Broncos"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team lost Super Bowl 11? (1977)",
+                answers: ["Oakland Raiders", "Baltimore Colts", "Minnesota Vikings", "Houston Oilers"],
+                correct: 2
+            }
+        ]
+    },
+
+    {
+        id: "hard-teams-quiz-7",
+        title: "Guess the Super Bowl–losing teams year by year – Part 6",
+        category: "teams",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Which NFL team lost Super Bowl 10? (1976)",
+                answers: ["Dallas Cowboys", "Kansas City Chiefs", "Pittsburgh Steelers", "Green Bay Packers"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team lost Super Bowl 9? (1975)",
+                answers: ["Dallas Cowboys", "Pittsburgh Steelers", "Minnesota Vikings", "San Diego Chargers"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 8? (1974)",
+                answers: ["Minnesota Vikings", "Atlanta Falcons", "Oakland Raiders", "Miami Dolphins"],
+                correct: 0
+            },
+            {
+                question: "Which NFL team lost Super Bowl 7? (1973)",
+                answers: ["Baltimore Colts", "Miami Dolphins", "Chicago Bears", "Washington Redskins"],
+                correct: 3
+            },
+            {
+                question: "Which NFL team lost Super Bowl 6? (1972)",
+                answers: ["Houston Oilers", "Dallas Cowboys", "Miami Dolphins", "LA Rams"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 5? (1971)",
+                answers: ["Baltimore Colts", "Philadelphia Eagles", "Dallas Cowboys", "Kansas City Chiefs"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 4? (1970)",
+                answers: ["Denver Broncos", "Minnesota Vikings", "San Francisco 49ers", "Kansas City Chiefs"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team lost Super Bowl 3? (1969)",
+                answers: ["NY Giants", "Baltimore Colts", "NY Jets", "Tampa Bay Buccaneers"],
+                correct: 1
+            },
+            {
+                question: "Which NFL team lost Super Bowl 2? (1968)",
+                answers: ["Green Bay Packers", "NY Jets", "Oakland Raiders", "LA Rams"],
+                correct: 2
+            },
+            {
+                question: "Which NFL team lost Super Bowl 1? (1967)",
+                answers: ["Kansas City Chiefs", "San Francisco 49ers", "Denver Broncos", "Green Bay Packers"],
+                correct: 0
+            }
+        ]
+    },
+
 //#endregion
 
 ];
