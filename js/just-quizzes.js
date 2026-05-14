@@ -301,6 +301,66 @@ window.quizzes = [
         ]
     },
 
+        {
+        id: "easy-players-player-stats-6",
+        title: "Guess the current team of the following NFL stars (2026–27 season)",
+        category: "players",
+        difficulty: "easy",
+        keywords: ["NFL players", "Current players", "Guess the team", "Guess the player's team"],
+        questions: [
+            {
+                question: "For which NFL team does Patrick Mahomes currently play?",
+                answers: ["Dallas Cowboys", "Houston Texans", "Seattle Seahawks", "Kansas City Chiefs"],
+                correct: 3
+            },
+            {
+                question: "For which NFL team does Ja'Marr Chase currently play?",
+                answers: ["Cleveland Browns", "Cincinnati Bengals", "Minnesota Vikings", "New England Patriots"],
+                correct: 1
+            },
+            {
+                question: "For which NFL team does Myles Garrett currently play?",
+                answers: ["Cincinnati Bengals", "Seattle Seahawks", "Jacksonville Jaguars", "Cleveland Browns"],
+                correct: 3
+            },
+            {
+                question: "For which NFL team does Josh Allen currently play?",
+                answers: ["NY Jets", "Dallas Cowboys", "Buffalo Bills", "LA Rams"],
+                correct: 2
+            },
+            {
+                question: "For which NFL team does Justin Jefferson currently play?",
+                answers: ["LA Chargers", "New Orleans Saints", "Minnesota Vikings", "Green Bay Packers"],
+                correct: 2
+            },
+            {
+                question: "For which NFL team does Saquon Barkley currently play?",
+                answers: ["Washington Commanders", "Philadelphia Eagles", "NY Giants", "Miami Dolphins"],
+                correct: 1
+            },
+            {
+                question: "For which NFL team does Christian Gonzalez currently play?",
+                answers: ["New England Patriots", "Seattle Seahawks", "San Francisco 49ers", "Tampa Bay Buccaneers"],
+                correct: 0
+            },
+            {
+                question: "For which NFL team does Joe Burrow currently play?",
+                answers: ["Indianapolis Colts", "Denver Broncos", "Kansas City Chiefs", "Cincinnati Bengals"],
+                correct: 3
+            },
+            {
+                question: "For which NFL team does Travis Kelce currently play?",
+                answers: ["Kansas City Chiefs", "Cleveland Browns", "Philadelphia Eagles", "NY Jets"],
+                correct: 0
+            },
+            {
+                question: "For which NFL team does Maxx Crosby currently play?",
+                answers: ["LA Chargers", "Baltimore Ravens", "Las Vegas Raiders", "Carolina Panthers"],
+                correct: 2            
+            }
+        ]
+    },
+
     {
         id: "easy-draft-quiz",
         title: "NFL Draft Basics",
