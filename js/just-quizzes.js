@@ -362,6 +362,66 @@ window.quizzes = [
     },
 
     {
+        id: "easy-players-player-stats-7",
+        title: "Guess the current team of the following NFL stars (2026–27 season) – Part 2",
+        category: "players",
+        difficulty: "easy",
+        keywords: ["NFL players", "Current players", "Guess the team", "Guess the player's team"],
+        questions: [
+            {
+                question: "For which NFL team does Matthew Stafford currently play?",
+                answers: ["LA Rams", "Detroit Lions", "LA Chargers", "Las Vegas Raiders"],
+                correct: 0
+            },
+            {
+                question: "For which NFL team does Jahmyr Gibbs currently play?",
+                answers: ["NY Jets", "Atlanta Falcons", "Detroit Lions", "New Orleans Saints"],
+                correct: 2
+            },
+            {
+                question: "For which NFL team does Lamar Jackson currently play?",
+                answers: ["Cleveland Browns", "Baltimore Ravens", "Arizona Cardinals", "NY Jets"],
+                correct: 1
+            },
+            {
+                question: "For which NFL team does Micah Parsons currently play?",
+                answers: ["Dallas Cowboys", "Cleveland Bronws", "Kansas City Chiefs", "Green Bay Packers"],
+                correct: 3
+            },
+            {
+                question: "For which NFL team does Fred Warner currently play?",
+                answers: ["LA Rams", "San Francisco 49ers", "Jacksonville Jaguars", "Pittsburgh Steelers"],
+                correct: 1
+            },
+            {
+                question: "For which NFL team does Davante Adams currently play?",
+                answers: ["Green Bay Packers", "NY Jets", "LA Rams", "Tampa Bay Buccaneers"],
+                correct: 2
+            },
+            {
+                question: "For which NFL team does George Kittle currently play?",
+                answers: ["San Francisco 49ers", "Kansas City Chiefs", "Cincinnati Bengals", "Seattle Seahawks"],
+                correct: 0
+            },
+            {
+                question: "For which NFL team does Amon-Ra St. Brown currently play?",
+                answers: ["Detroit Lions", "LA Chargers", "LA Rams", "Indianapolis Colts"],
+                correct: 0
+            },
+            {
+                question: "For which NFL team does Patrick Surtain II currently play?",
+                answers: ["Cleveland Browns", "New England Patriots", "Las Vegas Raiders", "Denver Broncos"],
+                correct: 3
+            },
+            {
+                question: "For which NFL team does Kenneth Walker III currently play?",
+                answers: ["Seattle Seahawks", "Kansas City Chiefs", "Baltimore Ravens", "Houston Texans"],
+                correct: 1            
+            }
+        ]
+    },
+
+    {
         id: "easy-draft-quiz",
         title: "NFL Draft Basics",
         category: "draft",
