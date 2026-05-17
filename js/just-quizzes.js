@@ -479,8 +479,68 @@ window.quizzes = [
             }
         ]
     },
+
     {
         id: "easy-draft-quiz-2",
+        title: "NFL Draft Basics – Part 2",
+        category: "draft",
+        difficulty: "easy",
+        questions: [
+            {
+                question: "Who opens and announces the first pick of the NFL draft?",
+                answers: ["Player that gets selected first", "NFL commissioner", "Random fan", "Coach of the team that selects first"],
+                correct: 1
+            },
+            {
+                question: "How much time do teams have to make a selection in the first round of the NFL Draft?",
+                answers: ["8 minutes", "10 minutes", "12 minutes", "15 minutes"],
+                correct: 0
+            },
+            {
+                question: "What do teams select in the NFL draft?",
+                answers: ["Coaches", "Staff members", "Fans", "Players"],
+                correct: 3
+            },
+            {
+                question: "Where was the NFL draft this year (2026)?",
+                answers: ["Pittsburgh", "New York City", "Philadelphia", "Green Bay"],
+                correct: 0
+            },
+            {
+                question: "What month is the NFL draft usually held in?",
+                answers: ["February", "March", "April", "May"],
+                correct: 2
+            },
+            {
+                question: "Traditionally, what do players do after getting drafted?",
+                answers: ["Showing their skills", "Put on the team's jersey", "Put on the team's hat", "Nothing"],
+                correct: 2
+            },
+            {
+                question: "What do you call a player in their first year after being drafted into the NFL?",
+                answers: ["Freshman", "Rookie", "Greenhorn", "Starter"],
+                correct: 1
+            },
+            {
+                question: "How many NFL drafts are held each year?",
+                answers: ["1", "3", "6", "7"],
+                correct: 0
+            },
+            {
+                question: "What do you call a player who has not yet been drafted?",
+                answers: ["Draft fail", "Draft Prospect", "Future draftee", "Draft bust"],
+                correct: 1
+            },
+            {
+                question: "How is the first player selected usually called?",
+                answers: ["Cool pick", "Safe pick", "Best pick", "First overall pick"],
+                correct: 3
+            }
+        ]
+    },
+    
+    {
+        id: "easy-draft-quiz-3",
         title: "Guess where following NFL players went to college - Easy version",
         category: "draft",
         difficulty: "easy",
@@ -539,7 +599,7 @@ window.quizzes = [
     },
 
     {
-        id: "easy-draft-quiz-3",
+        id: "easy-draft-quiz-4",
         title: "Guess the positions of the first 10 picks of the 2026 NFL draft",
         category: "draft",
         difficulty: "easy",
@@ -598,7 +658,7 @@ window.quizzes = [
     },
 
     {
-        id: "easy-draft-quiz-4",
+        id: "easy-draft-quiz-5",
         title: "Guess the positions of the last 10 first overall picks",
         category: "draft",
         difficulty: "easy",
